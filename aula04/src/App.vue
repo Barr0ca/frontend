@@ -33,7 +33,7 @@ function cadastrar(evento: Event) {
 }
 
 function remover(codigo: number) {
-  //remove apenas o elemento na posição index
+  //remove apenas o elemento na posição do codigo
   lista.value = lista.value.filter(i => i.codigo != codigo)
 }
 </script>
