@@ -1,0 +1,10 @@
+
+services:
+  json-server:
+    image: clue/json-server
+    container_name: json-server
+    ports:
+      - "3000:80"
+    volumes:
+      - ./data.json:/data/db.json
+    

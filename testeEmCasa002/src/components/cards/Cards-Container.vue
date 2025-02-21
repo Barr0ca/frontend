@@ -1,0 +1,15 @@
+<script setup lang="ts"></script>
+
+<template>
+  <section class="card-container">
+    <slot></slot>
+  </section>
+</template>
+
+<style lang="scss" scoped>
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+</style>
