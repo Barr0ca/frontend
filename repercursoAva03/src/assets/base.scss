@@ -1,0 +1,20 @@
+$bckBody: #173540;
+$bckLi: #217373;
+
+body {
+    background-color: $bckBody;
+}
+
+li {
+    list-style-type: none;
+    background-color: $bckLi;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 8%;
+    cursor: pointer;
+}
+
+h1, h3{
+    color: #f5f5dc;
+}
